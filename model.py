@@ -202,4 +202,4 @@ conf_matrix = confusion_matrix(y_test,y_pred)
 classification_metrics(pipeline, conf_matrix)
 
 # save model
-save_model(model, 'model.pkl')
+save_model(model, 'model2.pkl')
