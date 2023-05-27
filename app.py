@@ -51,7 +51,7 @@ def main():
         
         if st.button('Predict'):
 
-            loaded_model = load_model('model.pkl')
+            loaded_model = load_model('model2.pkl')
             prediction = loaded_model.predict(single_pred)
             col1.write('''
 		    ## Results 🔍 
